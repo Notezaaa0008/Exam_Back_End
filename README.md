@@ -29,7 +29,7 @@ Data
   Path http://localhost:8000/data/
 
 - Add data  
-   Method POST
+  Method POST
   Path http://localhost:8000/data/
   Body
   {
