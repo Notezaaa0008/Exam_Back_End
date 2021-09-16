@@ -20,23 +20,23 @@ Chart
 
 - Get chart data  
    Method GET
-  Path http://localhost:8000/chart/
+   Path http://localhost:8000/chart/
 
 Data
 
 - Get data
-  Method GET
-  Path http://localhost:8000/data/
+   Method GET
+   Path http://localhost:8000/data/
 
 - Add data  
-  Method POST
-  Path http://localhost:8000/data/
-  Body
-  {
-  "value":"your value",
-  "synonyms": "your value"
-  }
+   Method POST
+   Path http://localhost:8000/data/
+   Body
+   {
+      "value":"your value",
+      "synonyms": "your value"
+   }
 
 - Delete data
-  Method DELETE
-  Path http://localhost:8000/data/id
+   Method DELETE
+   Path http://localhost:8000/data/id
